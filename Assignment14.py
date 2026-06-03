@@ -1,8 +1,8 @@
 from addition import add
 from subtract import subtract
 # from multiplication import multiply
-# from division import divide
-# from power import power
+from division import divide
+from power import power
 # from modulus import modulus
 # from floor import floor_divide
 
@@ -29,11 +29,11 @@ elif choice == 2:
 # elif choice == 3:
 #     print("Result:", multiply(a, b))
 
-# elif choice == 4:
-#     print("Result:", divide(a, b))
+elif choice == 4:
+    print("Result:", divide(a, b))
 
-# elif choice == 5:
-#     print("Result:", power(a, b))
+elif choice == 5:
+    print("Result:", power(a, b))
 
 # elif choice == 6:
 #     print("Result:", modulus(a, b))
