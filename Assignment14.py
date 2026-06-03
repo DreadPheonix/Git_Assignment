@@ -1,10 +1,10 @@
 from addition import add
 from subtract import subtract
-# from multiplication import multiply
+from multiplication import multiply
 from division import divide
 from power import power
-# from modulus import modulus
-# from floor import floor_divide
+from modulus import modulus
+from floor import floor_divide
 
 print("Calculator Operations")
 print("1. Addition")
@@ -26,20 +26,20 @@ if choice == 1:
 elif choice == 2:
     print("Result:", subtract(a, b))
 
-# elif choice == 3:
-#     print("Result:", multiply(a, b))
+ elif choice == 3:
+     print("Result:", multiply(a, b))
 
-elif choice == 4:
-    print("Result:", divide(a, b))
+ elif choice == 4:
+     print("Result:", divide(a, b))
 
-elif choice == 5:
-    print("Result:", power(a, b))
+ elif choice == 5:
+     print("Result:", power(a, b))
 
-# elif choice == 6:
-#     print("Result:", modulus(a, b))
+ elif choice == 6:
+     print("Result:", modulus(a, b))
 
-# elif choice == 7:
-#     print("Result:", floor_divide(a, b))
+ elif choice == 7:
+     print("Result:", floor_divide(a, b))
 
 else:
     print("Invalid Choice")
